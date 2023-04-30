@@ -17,7 +17,7 @@ enum EnvConfig: String {
     case displayName
     case groupCallId
     case teamsMeetingLink
-    case roomId
+    case roomCallId
     case threadId
     case endpointUrl
     case roomRole
@@ -45,7 +45,7 @@ class EnvConfigSubject: ObservableObject {
     @Published var navigationSubtitle: String = ""
     @Published var groupCallId: String = EnvConfig.groupCallId.value()
     @Published var teamsMeetingLink: String = EnvConfig.teamsMeetingLink.value()
-    @Published var roomId: String = EnvConfig.roomId.value()
+    @Published var roomCallId: String = EnvConfig.roomCallId.value()
     @Published var threadId: String = EnvConfig.threadId.value()
     @Published var endpointUrl: String = EnvConfig.endpointUrl.value()
 
@@ -81,6 +81,12 @@ class EnvConfigSubject: ObservableObject {
         if let name = dic["name"],
            !name.isEmpty {
             displayName = name
+        }
+
+        if let roomId = dic["roomid"],
+           !roomId.isEmpty {
+            roomCallId = roomId
+            selectedMeetingType = .roomCall
         }
 
         if let groupId = dic["groupid"],

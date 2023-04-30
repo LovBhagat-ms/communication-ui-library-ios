@@ -36,16 +36,16 @@ struct CallingDemoView: View {
             acsTokenSelector
             displayNameTextField
             meetingSelector
+            if envConfigSubject.selectedMeetingType == .roomCall {
+                roomRoleSelector
+            } else {
+                roomRoleSelector.hidden()
+            }
             Group {
                 settingButton
                 showCallHistoryButton
                 startExperienceButton
                 Text(callState)
-            }
-            if envConfigSubject.selectedMeetingType == .roomCall {
-                roomRoleSelector
-            } else {
-                roomRoleSelector.hidden()
             }
             Spacer()
         }
@@ -123,7 +123,7 @@ struct CallingDemoView: View {
             case .roomCall:
                 TextField(
                     "Room Id",
-                    text: $envConfigSubject.roomId)
+                    text: $envConfigSubject.roomCallId)
                     .autocapitalization(.none)
                     .disableAutocorrection(true)
                     .textFieldStyle(.roundedBorder)
@@ -380,7 +380,7 @@ extension CallingDemoView {
         case .teamsMeeting:
             return envConfigSubject.teamsMeetingLink
         case .roomCall:
-            return envConfigSubject.roomId
+            return envConfigSubject.roomCallId
         }
     }
 

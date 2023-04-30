@@ -153,8 +153,8 @@ class CallingDemoViewController: UIViewController {
         if !envConfigSubject.teamsMeetingLink.isEmpty {
             teamsMeetingTextField.text = envConfigSubject.teamsMeetingLink
         }
-        if !envConfigSubject.roomId.isEmpty {
-            roomCallTextField.text = envConfigSubject.roomId
+        if !envConfigSubject.roomCallId.isEmpty {
+            roomCallTextField.text = envConfigSubject.roomCallId
         }
         if envConfigSubject.selectedMeetingType == .groupCall {
             meetingTypeSegmentedControl.selectedSegmentIndex = 0
@@ -587,7 +587,7 @@ class CallingDemoViewController: UIViewController {
         teamsMeetingTextField.addTarget(self, action: #selector(textFieldEditingDidChange), for: .editingChanged)
         roomCallTextField = UITextField()
         roomCallTextField.placeholder = "Room Id"
-        roomCallTextField.text = envConfigSubject.roomId
+        roomCallTextField.text = envConfigSubject.roomCallId
         roomCallTextField.delegate = self
         roomCallTextField.sizeToFit()
         roomCallTextField.translatesAutoresizingMaskIntoConstraints = false

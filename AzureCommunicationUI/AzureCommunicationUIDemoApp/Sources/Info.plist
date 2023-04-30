@@ -54,6 +54,8 @@
 	<string>${displayName}</string>
 	<key>groupCallId</key>
 	<string>${groupCallId}</string>
+    <key>roomCallId</key>
+    <string>${roomCallId}</string>
 	<key>teamsMeetingLink</key>
 	<string>${teamsMeetingLink}</string>
 	<key>aadToken</key>
