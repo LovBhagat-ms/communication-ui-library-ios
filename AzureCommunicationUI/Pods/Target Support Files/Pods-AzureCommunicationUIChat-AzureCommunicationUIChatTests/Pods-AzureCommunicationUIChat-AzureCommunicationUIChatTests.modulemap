@@ -1,0 +1,6 @@
+framework module Pods_AzureCommunicationUIChat_AzureCommunicationUIChatTests {
+  umbrella header "Pods-AzureCommunicationUIChat-AzureCommunicationUIChatTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

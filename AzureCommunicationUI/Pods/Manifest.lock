@@ -1,0 +1,99 @@
+PODS:
+  - AppCenter/Core (4.4.1)
+  - AppCenter/Crashes (4.4.1):
+    - AppCenter/Core
+  - AzureCommunicationCalling (2.4.0-alpha-private.1.3):
+    - AzureCommunicationCommon (= 1.1.1)
+  - AzureCommunicationChat (1.3.1):
+    - AzureCommunicationCommon (~> 1.0)
+    - AzureCore (= 1.0.0-beta.15)
+    - Trouter (= 0.2.0)
+  - AzureCommunicationCommon (1.1.1)
+  - AzureCommunicationUICalling (1.4.0-beta-private.2.4):
+    - AzureCommunicationCalling (= 2.4.0-alpha-private.1.3)
+    - AzureCore (= 1.0.0-beta.15)
+    - MicrosoftFluentUI/ActivityIndicator_ios (= 0.10.0)
+    - MicrosoftFluentUI/Avatar_ios (= 0.10.0)
+    - MicrosoftFluentUI/AvatarGroup_ios (= 0.10.0)
+    - MicrosoftFluentUI/BottomSheet_ios (= 0.10.0)
+    - MicrosoftFluentUI/Button_ios (= 0.10.0)
+    - MicrosoftFluentUI/PopupMenu_ios (= 0.10.0)
+  - AzureCore (1.0.0-beta.15)
+  - MicrosoftFluentUI/ActivityIndicator_ios (0.10.0):
+    - MicrosoftFluentUI/Core_ios
+  - MicrosoftFluentUI/Avatar_ios (0.10.0):
+    - MicrosoftFluentUI/Core_ios
+  - MicrosoftFluentUI/AvatarGroup_ios (0.10.0):
+    - MicrosoftFluentUI/Avatar_ios
+  - MicrosoftFluentUI/BottomSheet_ios (0.10.0):
+    - MicrosoftFluentUI/Obscurable_ios
+    - MicrosoftFluentUI/ResizingHandleView_ios
+  - MicrosoftFluentUI/Button_ios (0.10.0):
+    - MicrosoftFluentUI/Core_ios
+  - MicrosoftFluentUI/Core_ios (0.10.0)
+  - MicrosoftFluentUI/Drawer_ios (0.10.0):
+    - MicrosoftFluentUI/Obscurable_ios
+    - MicrosoftFluentUI/ResizingHandleView_ios
+    - MicrosoftFluentUI/Separator_ios
+    - MicrosoftFluentUI/TouchForwardingView_ios
+  - MicrosoftFluentUI/Label_ios (0.10.0):
+    - MicrosoftFluentUI/Core_ios
+  - MicrosoftFluentUI/Obscurable_ios (0.10.0):
+    - MicrosoftFluentUI/Core_ios
+  - MicrosoftFluentUI/PopupMenu_ios (0.10.0):
+    - MicrosoftFluentUI/Drawer_ios
+    - MicrosoftFluentUI/Label_ios
+    - MicrosoftFluentUI/Separator_ios
+    - MicrosoftFluentUI/TableView_ios
+  - MicrosoftFluentUI/ResizingHandleView_ios (0.10.0):
+    - MicrosoftFluentUI/Core_ios
+  - MicrosoftFluentUI/Separator_ios (0.10.0):
+    - MicrosoftFluentUI/Core_ios
+  - MicrosoftFluentUI/TableView_ios (0.10.0):
+    - MicrosoftFluentUI/Label_ios
+    - MicrosoftFluentUI/Separator_ios
+  - MicrosoftFluentUI/TouchForwardingView_ios (0.10.0):
+    - MicrosoftFluentUI/Core_ios
+  - SwiftLint (0.42.0)
+  - Trouter (0.2.0)
+
+DEPENDENCIES:
+  - AppCenter/Crashes (= 4.4.1)
+  - AzureCommunicationChat (= 1.3.1)
+  - AzureCommunicationUICalling (= 1.4.0-beta-private.2.4)
+  - MicrosoftFluentUI/ActivityIndicator_ios (= 0.10.0)
+  - MicrosoftFluentUI/Avatar_ios (= 0.10.0)
+  - MicrosoftFluentUI/AvatarGroup_ios (= 0.10.0)
+  - MicrosoftFluentUI/BottomSheet_ios (= 0.10.0)
+  - MicrosoftFluentUI/Button_ios (= 0.10.0)
+  - MicrosoftFluentUI/PopupMenu_ios (= 0.10.0)
+  - SwiftLint (= 0.42.0)
+
+SPEC REPOS:
+  "git@github.com:iaulakh/calling_native_ios_private_drop.git":
+    - AzureCommunicationCalling
+  "git@github.com:iaulakh/calling_ui_library_private_drop.git":
+    - AzureCommunicationUICalling
+  https://github.com/CocoaPods/Specs.git:
+    - AppCenter
+    - AzureCommunicationChat
+    - AzureCommunicationCommon
+    - AzureCore
+    - MicrosoftFluentUI
+    - SwiftLint
+    - Trouter
+
+SPEC CHECKSUMS:
+  AppCenter: b0b6f1190215b5f983c42934db718f3b46fff3c0
+  AzureCommunicationCalling: 0bde5e7a215909d3c38585c564cf72fb36cff689
+  AzureCommunicationChat: 9be8209d32c2fc6259095ff9838ad30dcfc44f80
+  AzureCommunicationCommon: cc520a89f3f8db6d58de42ec4a70cfb79a1b76a3
+  AzureCommunicationUICalling: 14f24dcad26193a13c6691ade55ba6080f9a2617
+  AzureCore: ebbf7cf4dfe72afc7584088c38d1c99f5a35d647
+  MicrosoftFluentUI: f6db695718efb93f4ca9bdc366c00b80a1f91dba
+  SwiftLint: 4fa9579c63416865179bc416f0a92d55f009600d
+  Trouter: 7eab36954ad740e32db3ff9f6025b0dff92193d7
+
+PODFILE CHECKSUM: 1ae8f1ee02da119a521ac23eb2a23a050674e8e2
+
+COCOAPODS: 1.12.1

@@ -1,0 +1,6 @@
+framework module Pods_AzureCommunicationUIDemoApp_AzureCommunicationUIDemoAppUITests {
+  umbrella header "Pods-AzureCommunicationUIDemoApp-AzureCommunicationUIDemoAppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

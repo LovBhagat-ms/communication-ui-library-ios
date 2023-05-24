@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_AzureCommunicationUIChat_AzureCommunicationUIChatTests : NSObject
+@end
+@implementation PodsDummy_Pods_AzureCommunicationUIChat_AzureCommunicationUIChatTests
+@end

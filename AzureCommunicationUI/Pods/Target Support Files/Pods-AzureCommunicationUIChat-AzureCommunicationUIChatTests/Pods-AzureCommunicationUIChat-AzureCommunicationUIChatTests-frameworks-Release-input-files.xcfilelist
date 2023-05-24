@@ -1,0 +1,6 @@
+${PODS_ROOT}/Target Support Files/Pods-AzureCommunicationUIChat-AzureCommunicationUIChatTests/Pods-AzureCommunicationUIChat-AzureCommunicationUIChatTests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AzureCommunicationChat/AzureCommunicationChat.framework
+${BUILT_PRODUCTS_DIR}/AzureCommunicationCommon/AzureCommunicationCommon.framework
+${BUILT_PRODUCTS_DIR}/AzureCore/AzureCore.framework
+${BUILT_PRODUCTS_DIR}/MicrosoftFluentUI/FluentUI.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/Trouter/Trouter.framework/Trouter
