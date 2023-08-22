@@ -49,8 +49,6 @@
 		FA93E3AA2942B61D006476A5 /* AzureCommunicationUIDemoAppTokenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA93E3A92942B61D006476A5 /* AzureCommunicationUIDemoAppTokenTests.swift */; };
 		FA93E3AC2942B6DA006476A5 /* AzureCommunicationUIDemoAppDebugInfoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA93E3AB2942B6DA006476A5 /* AzureCommunicationUIDemoAppDebugInfoTests.swift */; };
 		FA9A07E52953BE0600C2D328 /* AzureCommunicationUIDemoAppE2ETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9A07E42953BE0600C2D328 /* AzureCommunicationUIDemoAppE2ETests.swift */; };
-		FAA448A0282585F700BD0DC0 /* AzureCommunicationUICalling.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA4489F282585F700BD0DC0 /* AzureCommunicationUICalling.framework */; };
-		FAA448A1282585F700BD0DC0 /* AzureCommunicationUICalling.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FAA4489F282585F700BD0DC0 /* AzureCommunicationUICalling.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FABDDC992953DB4B00A142E5 /* AzureCommunicationUIDemoAppPIPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABDDC982953DB4B00A142E5 /* AzureCommunicationUIDemoAppPIPTests.swift */; };
 		FACEE494287364F4001D62BE /* AccessibilityIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACEE493287364F4001D62BE /* AccessibilityIdentifier.swift */; };
 /* End PBXBuildFile section */
@@ -73,7 +71,6 @@
 			dstSubfolderSpec = 10;
 			files = (
 				50CB82E228C9200E00680566 /* AzureCommunicationUIChat.framework in Embed Frameworks */,
-				FAA448A1282585F700BD0DC0 /* AzureCommunicationUICalling.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -159,7 +156,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				50CB82E128C9200300680566 /* AzureCommunicationUIChat.framework in Frameworks */,
-				FAA448A0282585F700BD0DC0 /* AzureCommunicationUICalling.framework in Frameworks */,
 				3507F9550C99D777E493AA92 /* Pods_AzureCommunicationUIDemoApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -812,6 +808,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon${BUNDLE_ID_SUFFIX}";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				BUNDLE_ID_SUFFIX = .dev;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = UBF8T346G9;
@@ -833,6 +830,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.azure.ios.communication.ui.meetings.AzureCommunicationUIDemoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -846,6 +844,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon${BUNDLE_ID_SUFFIX}";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				BUNDLE_ID_SUFFIX = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = UBF8T346G9;
@@ -867,6 +866,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.azure.ios.communication.ui.meetings.AzureCommunicationUIDemoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
